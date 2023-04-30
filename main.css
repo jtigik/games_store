@@ -44,7 +44,8 @@ header nav li a{
 
 /*Estilo 4*/
 
-header .container{
+header .container,
+footer .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
