@@ -17,7 +17,7 @@ body{
 
 /* Estilo 2 */
 
-header{
+header, footer{
     padding: 16px;
     background-color: #182C61;
     color: #ecf0f1;
