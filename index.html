@@ -1,97 +1,103 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Game Store</title>
-        <link rel="stylesheet" href="./main.css"/>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games Shop</title>
+    <link rel="stylesheet" href="./main.css" />
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:wght@700&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-            <div class="container">
-                <H1>Games Shop</H1>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#about" title="Saiba mais">Sobre a loja</a>
-                        </li>
-                        <li>
-                            <a href="#contact" title="Formulário de contato">Fale conosco</a>
-                        </li>
-                    </ul>
-                </nav>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Games Shop</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#about" title="Sobre">Sobre a loja</a>
+                    </li>
+                    <li>
+                        <a href="#contact" title="Formulario contato">fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="about">
+        <div class="container">
+            <img class="store-front" src="./Midias/loja.jpg" alt="Fachada da loja"/>
+            <div>
+                <h2>Sobre a loja</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum voluptatum sed ex voluptatibus ipsam 
+                    consequatur quasi perspiciatis corporis quaerat, aut doloremque, velit exercitationem maiores maxime, 
+                    eligendi voluptas quidem quod vero!
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum voluptatum sed ex voluptatibus ipsam 
+                    consequatur quasi perspiciatis corporis quaerat, aut doloremque, velit exercitationem maiores maxime, 
+                    eligendi voluptas quidem quod vero!
+                </p>
+                <ul class="brands-list">
+                    <li><img src="./imagens/nintendo.png"/></li>
+                    <li><img src="./imagens/xbox.png"/></li>
+                    <li><img src="./imagens/playstation.png"/></li>
+                </ul>
             </div>
-        </header>
+        </div>
+    </section>
 
-        <section id="about">
-            <div class="container">
-                <img class="Store_Facade" src="./Midias/loja.jpg"/>
+    <section id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <div class="contact-methods">
                 <div>
-                    <h2>Sobre a loja</h2>
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est ullam ratione cum magni blanditiis maxime commodi sunt adipisci harum. Tenetur, eius! Hic optio dignissimos inventore possimus cupiditate sit quaerat veniam.
-                    </p>
-
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est ullam ratione cum magni blanditiis maxime commodi sunt adipisci harum. Tenetur, eius! Hic optio dignissimos inventore possimus cupiditate sit quaerat veniam.
-                    </p>
-                    <ul class="lista_marcas">
-                        <li><img src="./Midias/nintendo.png"/></li>
-                        <li><img src=".Midias/xbox.png"/></li>
-                        <li><img src="./Midias/playstation.png"/></li>
+                    <h3>Fale conosco</h3>
+                    <form>
+                        <input type="text" placeholder="Seu nome" required/>
+                        <input type="email" placeholder="Seu e-mail" required/>
+                        <input type="tel" placeholder="Seu telefone" required/>
+                        <textarea placeholder="Sua mensagem" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div>
+                    <h3>Nos acompanhe</h3>
+                    <ul class="social-links">
+                        <li>
+                            <a href="#" title="Siga no Instagram" >
+                                <img src="./Midias/instagram.png" alt="logo do instagram"/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Siga no Facebook" >
+                                <img src="./Midias/facebook.png" alt="logo do Facebook"/>
+                            </a>
+                        </li><li>
+                            <a href="#" title="Visite nosso canal no YouTube" >
+                                <img src="./Midias/youtube.png" alt="logo do youtube"/>
+                            </a>
+                        </li>
                     </ul>
                 </div>
-            </div>
-            <section id="contact">
-                <div class="container">
-                    <H2>Contato</H2>
-                    <div class="methods-contacts">
-                        <div>
-                            <h3>Fale conosco</h3>
-                            <form>
-                                <input type="text" placeholder="Seu nome" required/>
-                                <input type="email" placeholder="Seu e-mail" required/>
-                                <input type="tel" placeholder="Seu fone" required/>
-                                <textarea placeholder="Sua mensagem"></textarea>
-                                <button type="submit">Enviar</button>
-                            </form>
-                        </div>
-                        <div>
-                            <h3>Nos acompanhe</h3>
-                            <ul class="social-link">
-                                <li>
-                                    <a href="#" title="Siga no Instagram">
-                                        <img src="./Midias/instagram.png"/>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" title="Siga no Facebook">
-                                        <img src="./Midias/facebook.png"/>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" title="Siga no YouTube">
-                                        <img src="./Midias/youtube.png"/>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h3>Venha até nós</h3>
-                            <p>Rua JavaScript, 134, Vila HTML, Viamão - RS</p>
-                        </div>
-                    </div>
+                <div>
+                    <h3>Venha até nós</h3>
+                    <p>Rua JavaScript n: 1124, Vila HTML - Porto Alegre RS</p>
                 </div>
-            </section>
-        </section>
-        
-        <footer>
-            <p>2023 - Todos os direitos reservados.</p>
-        </footer>
-    </body>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="container">
+            <footer>
+                <p>©2023 - Todos os direitos reservados.</p>
+            </footer>
+        </div>
+    </section>
+</body>
+    
 </html>
